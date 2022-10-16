@@ -1,10 +1,10 @@
 const url = "https://www.google.com"
 
-let printSomething = function() {
-    console.log("Request details are - a, b, c")
+let welcome = function() {
+    console.log("‘Welcome to my application. I am Tejas and a part of FunctionUp Plutonium cohort.")
     return "done"
 }
 
 let abc = 2022
 module.exports.myUrl = url
-module.exports.myFunction = printSomething
+module.exports.myFunction = welcome
